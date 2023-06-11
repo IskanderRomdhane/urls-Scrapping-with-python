@@ -104,7 +104,6 @@ class Ui_Scraper(object):
         QtCore.QMetaObject.connectSlotsByName(Scraper)
         def f ():
             inf = self.comboBox.currentText()
-            print(inf == 'Bing ')
             query = self.lineEdit.text()
             pages = self.spinBox.value()
             GoogleScraper.run(GoogleScraper(),query,inf,pages)
