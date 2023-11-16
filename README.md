@@ -39,8 +39,8 @@ File Structure:
 
 google-search-scraper/
 │
-├── main.py
-├── fetch2.py
+├── main2.py
+├── fetch.py
 └── url.txt
 Contributors
 Iskander Romdhane
